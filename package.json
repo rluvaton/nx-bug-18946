@@ -2,7 +2,9 @@
   "name": "@test/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "repro": "nx run lib2:build"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
